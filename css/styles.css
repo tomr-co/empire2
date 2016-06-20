@@ -73,7 +73,7 @@ nav img {
 		box-sizing: border-box;
 		width: 100%;
 		height: 31px;
-		background-color: red;
+		border: none;
 		border-bottom: 5px solid #000;
 	}
 
@@ -95,29 +95,6 @@ nav img {
 	}
 
 
-
-		/* seach nav */
-
-		
-
-		/*input {
-			background-color: red;
-			box-sizing: border-box;
-			height: 25px;
-			width: 100%;
-			padding: 0px;
-			margin-bottom: 0px;
-			border: none;
-			border-bottom: 5px solid #000;
-		}
-
-		form {
-			margin-left: 20px;
-			margin-right: 20px;
-			width: 100%;
-		}
-
-
 /* clearfix */
 .nav-buttons {
 	overflow : auto;
@@ -125,11 +102,15 @@ nav img {
 
 
 
+
+
+
+
 /* Image Slider */
 
 
 .my-slider {
-	width: 100%; 
+	width: 100%;
 }
 
 /* SHOP NOW LINKS BELOW IMAGE SLIDER */
@@ -155,7 +136,10 @@ nav img {
 }
 
 
-/* Tablet + Bigger iphone */ 
+/* Media Queries */
+
+
+
 
 @media (min-width: 700px) {
 
