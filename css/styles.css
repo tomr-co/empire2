@@ -52,29 +52,51 @@ nav img {
 		margin: 0 auto;
 	}
 
-	.nav-buttons ul {
-		list-style: none;
-		padding: 0;
-	}
-
-	.nav-buttons li {
+	/* Burger Menu */
+	.menu-box {
 		float: left;
 	}
 
-	.nav-buttons li:nth-child(3) {
+	.menu-box img {
+		width: 31px;
+	}
+
+	/* Search Box */
+
+	.search-box {
+		float: left;
+	}
+
+	.search-box input {
+		box-sizing: border-box;
+		width: 151px;
+		height: 31px;
+		background-color: red;
+		border-bottom: 5px solid #000;
+	}
+
+	.search-box {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	/* cart box */
+
+	.cart-box {
 		float: right;
 	}
 
-	.burger-menu,
-	.cart {
-		height: 25px;
+	.cart-box img{
+		width: 34px;
 	}
+
+
 
 		/* seach nav */
 
 		
 
-		input {
+		/*input {
 			background-color: red;
 			box-sizing: border-box;
 			height: 25px;
