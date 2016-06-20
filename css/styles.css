@@ -1,0 +1,144 @@
+/* mobile styles */
+
+/* Header / Navigation styles */ 
+	body {
+		margin: 0
+	}
+
+	#top-bar {
+		height: 60px;
+		width: 100%;
+		background-color: #000;
+		margin: 0;
+		padding: 0;
+	}
+
+nav p {
+	color: white;
+	text-align: center; 
+	margin: 0;
+	line-height: -60px;
+	font-size: 1rem;
+}
+
+nav img {
+	line-height: 30px;
+}
+
+
+/* sub nav */
+
+#main-nav {
+	width: 100%;
+	margin: 0, auto;
+	margin-bottom: 20px;
+}
+
+/* Logo */
+	.logo {
+		width: 50%;
+		margin: 5% auto;
+		text-align: center;
+	}
+
+	.logo img{
+		width: 150px;
+	}
+
+/* Nav icon links */	
+
+	.nav-buttons {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.nav-buttons ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	.nav-buttons li {
+		float: left;
+	}
+
+	.nav-buttons li:nth-child(3) {
+		float: right;
+	}
+
+	.burger-menu,
+	.cart {
+		height: 25px;
+	}
+
+		/* seach nav */
+
+		
+
+		input {
+			background-color: red;
+			box-sizing: border-box;
+			height: 25px;
+			width: 100%;
+			padding: 0px;
+			margin-bottom: 0px;
+			border: none;
+			border-bottom: 5px solid #000;
+		}
+
+		form {
+			margin-left: 20px;
+			margin-right: 20px;
+			width: 100%;
+		}
+
+
+/* clearfix */
+.nav-buttons {
+	overflow : auto;
+}
+
+
+
+/* Image Slider */
+
+
+.my-slider {
+	width: 100%; 
+}
+
+/* SHOP NOW LINKS BELOW IMAGE SLIDER */
+
+#below-slider {
+	width: 100%;
+	height: 400px;
+}
+
+#shop-now-1 {
+	width: 50%;
+	float: left;
+}
+
+	#shop-now-1 img,
+	#shop-now-2 img {
+		width: 100%;
+	}
+
+#shop-now-2 {
+	width: 50%;
+	float: right;
+}
+
+
+/* Tablet + Bigger iphone */ 
+
+@media (min-width: 700px) {
+
+.logo img {
+	width: 200px;
+}
+
+}
+
+
+
+
