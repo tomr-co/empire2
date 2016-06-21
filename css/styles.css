@@ -55,7 +55,7 @@ nav img {
 	/* Burger Menu */
 	.menu-box {
 		float: left;
-		width: 12%;
+		width: 31px;
 	}
 
 	.menu-box img {
@@ -66,7 +66,6 @@ nav img {
 
 	.search-box {
 		float: left;
-		margin: 0 auto;
 	}
 
 	.search-box input {
@@ -79,15 +78,14 @@ nav img {
 
 	.search-box {
 		margin-left: 8%;
-		margin-right: 8%;
-		width: 59%;
+		width: 58%;
 	}
 
 	/* cart box */
 
 	.cart-box {
 		float: right;
-		width: 13%;
+		width: 34px;
 	}
 
 	.cart-box img{
@@ -97,37 +95,44 @@ nav img {
 
 /* clearfix */
 
-/*.nav-buttons {
-	overflow : auto;
-}*/
-
 .nav-buttons:after {
 	content: '';
 	display: block;
 	clear: both;
 }
 
-
 	
-
-
-
-
-
 
 /* Image Slider */
 
-
+/*
 .my-slider {
 	width: 100%;
+} */
+
+/* Image slider place holder for now */
+
+.hero {
+	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-1.png?10932229835773173136");
+	background-size: 100% auto;
+	height: 900px;
+	background-repeat: no-repeat;
 }
+
 
 /* SHOP NOW LINKS BELOW IMAGE SLIDER */
 
 
 /* Media Queries */
 
+@media (min-width: 560px) {
 
+	.search-box {
+		width: 260px;
+		margin-left: 14%;
+	}
+
+}
 
 
 @media (min-width: 700px) {
