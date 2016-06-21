@@ -114,8 +114,9 @@ nav img {
 
 .hero {
 	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-1.png?10932229835773173136");
-	background-size: 100% auto;
-	height: 900px;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
 	background-repeat: no-repeat;
 }
 
@@ -148,6 +149,19 @@ nav img {
 
 #main-nav {
 	height: 170px;
+}
+
+}
+
+/* Main mobile break point */
+
+@media (min-width: 768px) {
+
+	.hero {
+	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-1.png?10932229835773173136");
+	background-size: cover;
+	height: 900px;
+	background-repeat: no-repeat;
 }
 
 }
