@@ -19,8 +19,7 @@
   display: inline-block;
   width: 15px;
   height: 15px;
-  margin-left: 4px;
-  margin-right: 4px;
+  margin: 0 4px;
   margin-top: 10px;
   background: transparent;
   border-radius: 10px;
