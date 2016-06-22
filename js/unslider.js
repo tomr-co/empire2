@@ -30,7 +30,7 @@
 			//  Should the slider move on its own or only when
 			//  you interact with the nav/arrows?
 			//  Only accepts boolean true/false.
-			autoplay: false,
+			autoplay: true,
 
 			//  3 second delay between slides moving, pass
 			//  as a number in milliseconds.
@@ -67,7 +67,7 @@
 			//  Either set true/false, or an object with the HTML
 			//  elements for each arrow like below:
 			arrows: {
-				prev: '<a class="' + self._ + '-arrow prev">Prev</a>',
+				prev: '<a class=' + self._ + '-arrow prev">Prev</a>',
 				next: '<a class="' + self._ + '-arrow next">Next</a>'
 			},
 
