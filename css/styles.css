@@ -88,6 +88,8 @@ nav img {
 				padding: 10px;
 			}
 
+			/* Hide nav via javascript */
+
 			#nav.js {
 				display: none;
 			}
