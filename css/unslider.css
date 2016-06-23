@@ -44,13 +44,16 @@
 }
 
 .unslider-arrow{
+	height: 25px;
+	width: 25px;
+	margin-top: -237.5px;
 	position:absolute;
-	left:20px;
+	left:25px;
 	z-index:2;
 	cursor:pointer;
 	}
 
 .unslider-arrow.next{
 	left:auto;
-	right:20px;
+	right:25px;
 }

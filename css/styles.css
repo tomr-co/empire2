@@ -53,6 +53,7 @@ nav img {
 	}
 
 	/* Burger Menu */
+	
 	.menu-box {
 		float: left;
 		width: 31px;
@@ -110,15 +111,26 @@ nav img {
 	width: 100%;
 } */
 
-/* Image slider place holder for now */
+/* Image slider */
 
-.hero {
+.slide-1 {
 	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-1.png?10932229835773173136");
 	background-position: center;
 	background-size: cover;
 	height: 500px;
 	background-repeat: no-repeat;
 }
+
+.slide-2 {
+	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-2.png?13855313181587065996");
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	background-repeat: no-repeat;
+}
+
+		/* Slider arrows */
+		.unslider-arrow {} /* Mobile styles included in unslider.css */
 
 
 /* SHOP NOW LINKS BELOW IMAGE SLIDER */
@@ -154,18 +166,53 @@ nav img {
 
 }
 
-/* Main mobile break point */
+/* TABLET */
 
 @media (min-width: 768px) {
 
-	.hero {
+	.slide-1 {
 	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-1.png?10932229835773173136");
 	background-size: cover;
 	height: 900px;
 	background-repeat: no-repeat;
 }
 
+	.slide-2 {
+	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-2.png?13855313181587065996");
+	background-size: cover;
+	height: 900px;
+	background-repeat: no-repeat;
 }
+
+	/* Slider arrows */
+	.unslider-arrow {
+		margin-top: -430px;
+	}
+
+}
+
+/* Small Desktop */
+
+@media (min-width: 1024px) {
+
+	.search-box {
+		width: 460px;
+		margin-left: 19%;
+	}
+
+}
+
+/* Average Desktop */
+
+@media (min-width: 1366px) {
+
+		.search-box {
+		width: 660px;
+		margin-left: 19%;
+	}
+}
+
+
 
 
 
