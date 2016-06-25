@@ -5,6 +5,10 @@
 		margin: 0
 	}
 
+	p {
+		font-family: helvetica, sans-serif;
+	}
+
 	#top-bar {
 		height: 60px;
 		width: 100%;
@@ -182,6 +186,46 @@ nav img {
 }
 
 
+
+/* Products */
+
+	.product {
+		width: 80%;
+		margin: 20px auto;
+	}
+
+	.image-wrapper {
+		width: 100%;
+	}
+
+	.image-wrapper img {
+		width: 100%;
+	}
+
+	/* Text styles */
+
+	.title {
+		font-size: 1.2rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.brand {
+		text-transform: uppercase;
+		text-align: center;
+		font-size: .7rem;
+	}
+
+	.price {
+		text-align: center;
+		font-weight: 100;
+		margin-top: 10px;
+	}
+
+
 /*************************************************************/		
 		/* Media Queries */
 
@@ -230,6 +274,11 @@ nav img {
 				margin-right: 1.5%;
 			}
 
+			#CTA-box:after {
+				content: '';
+				display: block;
+				clear: both;
+}
 
 	}
 
