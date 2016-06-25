@@ -14,11 +14,14 @@
 .unslider-nav ol {
   list-style: none;
   text-align: center;
+  margin-top: -40px;
+  position: relative;
+  z-index: 2;
 }
 .unslider-nav ol li {
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   margin: 0 4px;
   margin-top: 10px;
   background: transparent;

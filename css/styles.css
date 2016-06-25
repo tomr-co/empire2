@@ -57,6 +57,7 @@ nav img {
 	.menu-box {
 		float: left;
 		width: 31px;
+		cursor: pointer; 
 	}
 
 	.menu-box img {
@@ -68,8 +69,9 @@ nav img {
 			ul {
 				width: 80%;
 				margin: 0 auto;
-				margin-top: 15px;
+				margin-top: 0px;
 				padding-left: 0px;
+				margin-bottom: 15px;
 			}
 
 			li {
@@ -84,15 +86,18 @@ nav img {
 				text-transform: uppercase;
 				font-weight: bold;
 				font-family: helvetica;
-				background-color: #fafafa;
 				padding: 10px;
 			}
 
+		
+		
 			/* Hide nav via javascript */
 
 			#nav.js {
 				display: none;
 			}
+
+
 
 	/* Search Box */
 
@@ -159,80 +164,125 @@ nav img {
 /* SHOP NOW LINKS BELOW IMAGE SLIDER */
 
 
-/* Media Queries */
+#CTA-box {
+	width: 100%;
+	margin: 0 auto;
+}
+	
+#skate img,
+#new img {
+	width: 100%;
+	}
 
-@media (min-width: 560px) {
+#skate {
+	margin-bottom: 15px;
+	}
 
-	.search-box {
-		width: 260px;
-		margin-left: 14%;
+
+/*************************************************************/		
+		/* Media Queries */
+
+		/* Mobile break 2 */
+
+	@media (min-width: 560px) {
+
+			.search-box {
+				width: 260px;
+				margin-left: 14%;
+			}
+
+
+}
+		
+		/* Mobile break 2 */
+		
+
+	@media (min-width: 700px) {
+
+			.logo {
+				margin-top: 35px;
+				margin-bottom: 45px;
+			}
+
+			.logo img {
+				width: 200px;
+			}
+
+			#main-nav {
+				height: 170px;
+				padding-bottom: 25px;
+			}
+				
+				/* SHOP NOW LINKS BELOW IMAGE SLIDER */
+
+			#skate {
+				float: left;
+				width: 47.5%;
+				margin-left: 1.5%;
+			}
+
+			#new {
+				float: right;
+				width: 47.5%;
+				margin-right: 1.5%;
+			}
+
+
+	}
+
+		/* TABLET */
+
+	@media (min-width: 768px) {
+
+					
+			/* HERO IMAGE SLIDER */
+			.unslider {
+					height: 900px;
+				}
+
+			.slide-1 {
+				background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-1.png?10932229835773173136");
+				background-size: cover;
+				height: 900px;
+				background-repeat: no-repeat;
+				}
+
+			.slide-2 {
+				background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-2.png?13855313181587065996");
+				background-size: cover;
+				height: 900px;
+				background-repeat: no-repeat;
+				}
+
+			/* Slider arrows */
+			.unslider-arrow {
+					margin-top: -430px;
+				}
+
+	}
+
+
+
+	
+		/* Small Desktop */
+
+	@media (min-width: 1024px) {
+
+			.search-box {
+				width: 460px;
+				margin-left: 19%;
 	}
 
 }
 
+		/* Average Desktop */
 
-@media (min-width: 700px) {
+	@media (min-width: 1366px) {
 
-.logo {
-	margin-top: 35px;
-	margin-bottom: 45px;
-}
-
-.logo img {
-	width: 200px;
-}
-
-#main-nav {
-	height: 170px;
-	padding-bottom: 25px;
-}
-
-}
-
-/* TABLET */
-
-@media (min-width: 768px) {
-
-	.slide-1 {
-	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-1.png?10932229835773173136");
-	background-size: cover;
-	height: 900px;
-	background-repeat: no-repeat;
-}
-
-	.slide-2 {
-	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-2.png?13855313181587065996");
-	background-size: cover;
-	height: 900px;
-	background-repeat: no-repeat;
-}
-
-	/* Slider arrows */
-	.unslider-arrow {
-		margin-top: -430px;
-	}
-
-}
-
-/* Small Desktop */
-
-@media (min-width: 1024px) {
-
-	.search-box {
-		width: 460px;
-		margin-left: 19%;
-	}
-
-}
-
-/* Average Desktop */
-
-@media (min-width: 1366px) {
-
-		.search-box {
-		width: 660px;
-		margin-left: 19%;
-	}
+			.search-box {
+				width: 660px;
+				margin-left: 19%;
+			}
 }
 
 
