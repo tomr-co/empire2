@@ -9,3 +9,5 @@ $("#nav").addClass("js");
 $(".menu-box").click(function(){
 	$("#nav").toggle();
 });
+
+

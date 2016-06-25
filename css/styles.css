@@ -191,7 +191,7 @@ nav img {
 
 	.product {
 		width: 80%;
-		margin: 20px auto;
+		margin: 0 auto;
 	}
 
 	.image-wrapper {
@@ -202,7 +202,21 @@ nav img {
 		width: 100%;
 	}
 
+	#product-2,
+	#product-3,
+	#product-4 {
+		display: none;
+	}
+
 	/* Text styles */
+
+	h1 {
+		font-family: helvetica, sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 1.7rem;
+		text-align: center;
+	}
 
 	.title {
 		font-size: 1.2rem;
@@ -225,7 +239,6 @@ nav img {
 		margin-top: 10px;
 	}
 
-
 /*************************************************************/		
 		/* Media Queries */
 
@@ -238,6 +251,20 @@ nav img {
 				margin-left: 14%;
 			}
 
+			/* Products */
+
+			#product-1 {
+				float: left;
+				width: 47.5%;
+				margin-left: 1.5%;
+			}
+
+			#product-2 {
+				display: block;
+				float: right;
+				width: 47.5%;
+				margin-right: 1.5%;
+			}
 
 }
 		
@@ -311,6 +338,37 @@ nav img {
 					margin-top: -430px;
 				}
 
+
+			/* products */
+			#product-3 {
+				display: block;
+			}
+			
+			#product-1,
+			#product-2,
+			#product-3 {
+				float: left;
+				width: 31.33%;
+			}
+
+			#product-1 {
+				margin-left: 1.5%;
+				margin-right: .75%;
+			}
+
+			#product-2 {
+				margin-left: .75%;
+				margin-right: .75%;
+			}
+
+			#product-3 {
+				margin-left: .75%;
+				margin-right: 1.5%;
+			}
+
+			
+
+
 	}
 
 
@@ -329,31 +387,6 @@ nav img {
 
 		/* 1160px */
 	@media (min-width: 1160px) {
-
-			/* CALL TO ACTIONS */
-			#CTA-box {
-				width: 1160px;
-			}
-
-			.call-to-action {
-				height: 200px;
-				width: 550px;
-			}
-
-
-
-
-
-	}
-
-		/* Average Desktop */
-
-	@media (min-width: 1366px) {
-
-			.search-box {
-				width: 660px;
-				margin-left: 19%;
-			}
 
 			/* Call to actions */
 			#spotlight {
@@ -388,7 +421,55 @@ nav img {
 				margin-right: 1.5%;
 			}
 
-			.
+
+
+
+
+	}
+
+		/* Average Desktop */
+
+	@media (min-width: 1366px) {
+
+			.search-box {
+				width: 660px;
+				margin-left: 19%;
+			}
+
+			
+		/* products */
+			#product-4 {
+				display: block;
+			}
+			
+			#product-1,
+			#product-2,
+			#product-3,
+			#product-4 {
+				float: left;
+				width: 23.125%;
+			}
+
+			#product-1 {
+				margin-left: 1.5%;
+				margin-right: .75%;
+			}
+
+			#product-2 {
+				margin-left: .75%;
+				margin-right: .75%;
+			}
+
+			#product-3 {
+				margin-left: .75%;
+				margin-right: .75%;
+			}		
+
+			#product-4 {
+				margin-left: .75%;
+				margin-right: 1.5%;
+			}
+
 
 }
 
