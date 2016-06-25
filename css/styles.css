@@ -169,14 +169,17 @@ nav img {
 	margin: 0 auto;
 }
 	
-#skate img,
-#new img {
+.call-to-action img{
 	width: 100%;
 	}
 
 #skate {
 	margin-bottom: 15px;
 	}
+
+#spotlight {
+	display: none;
+}
 
 
 /*************************************************************/		
@@ -275,6 +278,25 @@ nav img {
 
 }
 
+		/* 1160px */
+	@media (min-width: 1160px) {
+
+			/* CALL TO ACTIONS */
+			#CTA-box {
+				width: 1160px;
+			}
+
+			.call-to-action {
+				height: 200px;
+				width: 550px;
+			}
+
+
+
+
+
+	}
+
 		/* Average Desktop */
 
 	@media (min-width: 1366px) {
@@ -283,6 +305,42 @@ nav img {
 				width: 660px;
 				margin-left: 19%;
 			}
+
+			/* Call to actions */
+			#spotlight {
+				display: block;
+
+			}
+
+			#CTA-box {
+				width: 100%;
+			}
+
+			#skate,
+			#new,
+			#spotlight{
+				float: left;
+				width: 31.33%;
+				margin: 0px;
+			}
+
+			#skate {
+				margin-left: 1.5%;
+				margin-right: .75%;
+			}
+
+			#new {
+				margin-left: .75%;
+				margin-right: .75%;
+			}
+
+			#spotlight {
+				margin-left: 1.5%;
+				margin-right: .75%;
+			}
+
+			.
+
 }
 
 
