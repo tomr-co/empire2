@@ -5,6 +5,10 @@
 		margin: 0
 	}
 
+	p {
+		font-family: helvetica, sans-serif;
+	}
+
 	#top-bar {
 		height: 60px;
 		width: 100%;
@@ -57,11 +61,47 @@ nav img {
 	.menu-box {
 		float: left;
 		width: 31px;
+		cursor: pointer; 
 	}
 
 	.menu-box img {
 		width: 31px;
 	}
+
+			/* Drop down nav styles */
+
+			ul {
+				width: 80%;
+				margin: 0 auto;
+				margin-top: 0px;
+				padding-left: 0px;
+				margin-bottom: 15px;
+			}
+
+			li {
+				list-style: none;
+				padding-top: 5px;
+				line-height: 2.2;
+			}
+
+			li a{
+				text-decoration: none;
+				color: #000;
+				text-transform: uppercase;
+				font-weight: bold;
+				font-family: helvetica;
+				padding: 10px;
+			}
+
+		
+		
+			/* Hide nav via javascript */
+
+			#nav.js {
+				display: none;
+			}
+
+
 
 	/* Search Box */
 
@@ -103,14 +143,6 @@ nav img {
 }
 
 	
-
-/* Image Slider */
-
-/*
-.my-slider {
-	width: 100%;
-} */
-
 /* Image slider */
 
 .slide-1 {
@@ -136,80 +168,617 @@ nav img {
 /* SHOP NOW LINKS BELOW IMAGE SLIDER */
 
 
-/* Media Queries */
+#CTA-box {
+	width: 100%;
+	margin: 0 auto;
+}
+	
+.call-to-action img{
+	width: 100%;
+	}
 
-@media (min-width: 560px) {
+#skate {
+	margin-bottom: 15px;
+	}
 
-	.search-box {
-		width: 260px;
-		margin-left: 14%;
+#spotlight {
+	display: none;
+}
+
+
+
+/* Products */
+
+	.product {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.image-wrapper {
+		width: 100%;
+	}
+
+	.image-wrapper img {
+		width: 100%;
+	}
+
+	#product-2,
+	#product-3,
+	#product-4 {
+		display: none;
+	}
+
+	/* Text styles */
+
+	h1 {
+		font-family: helvetica, sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 1.7rem;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	.title {
+		font-size: 1.2rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.brand {
+		text-transform: uppercase;
+		text-align: center;
+		font-size: .7rem;
+	}
+
+	.price {
+		text-align: center;
+		font-weight: 100;
+		margin-top: 10px;
+	}
+
+	/* Product Row spacing */
+
+	#featured {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	/* Blog Posts */
+
+	.image-wrapper-blog {
+		width: 100%;
+		background-color: #efefef;
+		padding-bottom: 0px;
+	}
+
+	.image-wrapper-blog img {
+		width: 100%;
+	}
+
+	#post-2,
+	#post-3,
+	#post-4 {
+		display: none;
+	}
+
+	.post {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.blog-caption {
+		background-color: #efefef;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.snippet {
+		box-sizing: border-box;
+		padding-top: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 16px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		font-size: .8rem;
+	}
+
+	.read-more {
+		width: 40%;
+		margin: 0 auto;
+		text-align: center;
+		box-sizing: border-box;
+		background-color: #efefef;
+		color: #000;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 10px;
+		padding-bottom:10px;
+		margin-bottom: 10px;
+		border: 5px solid #000;
+		text-transform: uppercase;
+		font-size: .7rem;
+		font-weight: bold;
+	}
+
+	.read-more:hover {
+		color: #fff;
+		background-color: #000;
+		cursor: pointer;
+	}
+
+
+/* Instagram feed plugin */
+
+#insta-icon {
+	margin: 0 auto;
+	width: 25px;
+	height: 25px;
+}
+
+#insta-icon img{
+	width: 100%;
+}
+
+#instagram {
+	margin-top: 40px;
+}
+
+#instagram h1{
+	padding-bottom: 20px;
+}
+
+#instafeed {
+	width: 80%;
+	margin: 20px auto;
+
+}
+
+#instafeed img {
+	width: 47.75%;
+	margin-bottom: 1.5%;
+	margin-left: 1.5%;
+}
+
+#follow {
+	width: 150px;
+	margin: 0 auto;
+}
+
+#follow p {
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	border: 5px solid #000;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+
+#follow p:hover {
+	background-color: #000;
+	color: #efefef;
+	cursor: pointer;
+}
+
+#follow a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/***** Footer Styles *****/
+
+footer {
+	background-color: #efefef;
+}
+
+#footer-links {
+	padding-top: 30px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.foot-head {
+	width: 100px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border-bottom: 4px solid #000;
+}
+
+#footer-links h2 {
+	font-family: helvetica, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	font-weight: bold;
+	padding-top: 10px;
+	margin-bottom: 3px;
+}
+
+
+#footer-links ul {
+	text-align: center;
+	font-weight: 100;
+	font-size: .8rem;
+}
+
+#footer-links a{
+	padding: 0px 0px;
+}
+
+#footer-links li {
+	padding: 0px 0px;
+}
+
+/* social links */
+
+#social {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#social-links {
+	width: 256px;
+	margin: 0 auto;
+}
+
+#social img {
+	height: 25px;
+	width: 25px;
+	margin-right: 25px;
+}
+
+#social img:nth-child(5) {
+	margin-right: 0px;
+}
+
+
+
+/*************************************************************/		
+		/* Media Queries */
+
+		/* Mobile break 2 */
+
+	@media (min-width: 560px) {
+
+			.search-box {
+				width: 260px;
+				margin-left: 14%;
+			}
+
+			/* Products */
+
+			#product-1 {
+				float: left;
+				width: 47.5%;
+				margin-left: 1.5%;
+			}
+
+			#product-2 {
+				display: block;
+				float: right;
+				width: 47.5%;
+				margin-right: 1.5%;
+			}
+
+			#featured:after {
+				content: '';
+				display: block;
+				clear: both;
+			}
+
+			/* Blog-posts */
+
+			#post-2 {
+				display: block;
+				float: right;
+				width: 47.5%;
+				margin-right: 1.5%;
+			}
+
+			#post-1 {
+				float: left;
+				width: 47.5%;
+				margin-left: 1.5%;
+			}
+
+			.read-more {
+				width: 50%;
+			}
+
+			#Blog:after {
+				content: '';
+				display: block;
+				clear: both;
+			}
+
+			/* footer Links */
+
+
+
+
+
+}
+		
+		/* Mobile break 2 */
+		
+
+	@media (min-width: 700px) {
+
+			.logo {
+				margin-top: 35px;
+				margin-bottom: 45px;
+			}
+
+			.logo img {
+				width: 200px;
+			}
+
+			#main-nav {
+				height: 170px;
+				padding-bottom: 25px;
+			}
+				
+		/* SHOP NOW LINKS BELOW IMAGE SLIDER */
+
+			#skate {
+				float: left;
+				width: 47.5%;
+				margin-left: 1.5%;
+			}
+
+			#new {
+				float: right;
+				width: 47.5%;
+				margin-right: 1.5%;
+			}
+
+			#CTA-box:after {
+				content: '';
+				display: block;
+				clear: both;
+}
+
+	}
+
+		/* TABLET */
+
+	@media (min-width: 768px) {
+
+					
+			/* HERO IMAGE SLIDER */
+			.unslider {
+					height: 900px;
+				}
+
+			.slide-1 {
+				background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-1.png?10932229835773173136");
+				background-size: cover;
+				height: 900px;
+				background-repeat: no-repeat;
+				}
+
+			.slide-2 {
+				background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-2.png?13855313181587065996");
+				background-size: cover;
+				height: 900px;
+				background-repeat: no-repeat;
+				}
+
+			/* Slider arrows */
+			.unslider-arrow {
+					margin-top: -430px;
+				}
+
+
+			/* products */
+			#product-3 {
+				display: block;
+			}
+			
+			#product-1,
+			#product-2,
+			#product-3 {
+				float: left;
+				width: 31.33%;
+			}
+
+			#product-1 {
+				margin-left: 1.5%;
+				margin-right: .75%;
+			}
+
+			#product-2 {
+				margin-left: .75%;
+				margin-right: .75%;
+			}
+
+			#product-3 {
+				margin-left: .75%;
+				margin-right: 1.5%;
+			}
+
+			/* Blog-posts */
+
+			#post-3 {
+				display: block;
+			}
+
+			#post-1,
+			#post-2,
+			#post-3 {
+				float: left;
+				width: 31.33%;
+			}
+
+			#post-1 {
+				margin-left: 1.5%;
+				margin-right: .75%;
+			}
+
+			#post-2 {
+				margin-left: .75%;
+				margin-right: .75%;
+			}
+
+			#post-3 {
+				margin-left: .75%;
+				margin-right: 1.5%;
+			}
+
+			/* Instagram Feed */
+
+			#instafeed img {
+				width: 23.5%;
+				margin-bottom: 0;
+				margin-left: 1.5%;
+			}
+
+			
+	}
+
+
+
+	
+		/* Small Desktop */
+
+	@media (min-width: 1024px) {
+
+			.search-box {
+				width: 460px;
+				margin-left: 19%;
 	}
 
 }
 
+		/* 1160px */
+	@media (min-width: 1160px) {
 
-@media (min-width: 700px) {
+			/* Call to actions */
+			#spotlight {
+				display: block;
 
-.logo {
-	margin-top: 35px;
-	margin-bottom: 45px;
-}
+			}
 
-.logo img {
-	width: 200px;
-}
+			#CTA-box {
+				width: 100%;
+			}
 
-#main-nav {
-	height: 170px;
-	padding-bottom: 25px;
-}
+			#skate,
+			#new,
+			#spotlight{
+				float: left;
+				width: 31.33%;
+				margin: 0px;
+			}
 
-}
+			#skate {
+				margin-left: 1.5%;
+				margin-right: .75%;
+			}
 
-/* TABLET */
+			#new {
+				margin-left: .75%;
+				margin-right: .75%;
+			}
 
-@media (min-width: 768px) {
+			#spotlight {
+				margin-left: .75%;
+				margin-right: 1.5%;
+			}
 
-	.slide-1 {
-	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-1.png?10932229835773173136");
-	background-size: cover;
-	height: 900px;
-	background-repeat: no-repeat;
-}
 
-	.slide-2 {
-	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-2.png?13855313181587065996");
-	background-size: cover;
-	height: 900px;
-	background-repeat: no-repeat;
-}
 
-	/* Slider arrows */
-	.unslider-arrow {
-		margin-top: -430px;
+
+
 	}
 
-}
+		/* Average Desktop */
 
-/* Small Desktop */
+	@media (min-width: 1366px) {
 
-@media (min-width: 1024px) {
+			.search-box {
+				width: 660px;
+				margin-left: 19%;
+			}
 
-	.search-box {
-		width: 460px;
-		margin-left: 19%;
-	}
+			
+		/* products */
+			#product-4 {
+				display: block;
+			}
+			
+			#product-1,
+			#product-2,
+			#product-3,
+			#product-4 {
+				float: left;
+				width: 23.125%;
+			}
 
-}
+			#product-1 {
+				margin-left: 1.5%;
+				margin-right: .75%;
+			}
 
-/* Average Desktop */
+			#product-2 {
+				margin-left: .75%;
+				margin-right: .75%;
+			}
 
-@media (min-width: 1366px) {
+			#product-3 {
+				margin-left: .75%;
+				margin-right: .75%;
+			}		
 
-		.search-box {
-		width: 660px;
-		margin-left: 19%;
-	}
+			#product-4 {
+				margin-left: .75%;
+				margin-right: 1.5%;
+			}
+
+
+			/* Blog-posts */
+
+			#post-4 {
+				display: block;
+			}
+
+			#post-1,
+			#post-2,
+			#post-3,
+			#post-4 {
+				float: left;
+				width: 23.125%;
+			}
+
+			#post-1 {
+				margin-left: 1.5%;
+				margin-right: .75%;
+			}
+
+			#post-2 {
+				margin-left: .75%;
+				margin-right: .75%;
+			}
+
+			#post-3 {
+				margin-left: .75%;
+				margin-right: .75%;
+			}
+
+			#post-4 {
+				margin-left: .75%;
+				margin-right: 1.5%;
+			}
+			
+
+
 }
 
 
