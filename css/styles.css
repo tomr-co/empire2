@@ -216,6 +216,7 @@ nav img {
 		font-weight: bold;
 		font-size: 1.7rem;
 		text-align: center;
+		padding-bottom: 30px;
 	}
 
 	.title {
@@ -238,6 +239,104 @@ nav img {
 		font-weight: 100;
 		margin-top: 10px;
 	}
+
+	/* Product Row spacing */
+
+	#featured {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	/* Blog Posts */
+
+	.image-wrapper-blog {
+		width: 100%;
+		background-color: #efefef;
+		padding-bottom: 0px;
+	}
+
+	.image-wrapper-blog img {
+		width: 100%;
+	}
+
+	#post-2,
+	#post-3,
+	#post-4 {
+		display: none;
+	}
+
+	.post {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.blog-caption {
+		background-color: #efefef;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.snippet {
+		box-sizing: border-box;
+		padding-top: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 16px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		font-size: .8rem;
+	}
+
+	.read-more {
+		width: 40%;
+		margin: 0 auto;
+		text-align: center;
+		box-sizing: border-box;
+		background-color: #efefef;
+		color: #000;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 10px;
+		padding-bottom:10px;
+		margin-bottom: 10px;
+		border: 5px solid #000;
+		text-transform: uppercase;
+		font-size: .7rem;
+		font-weight: bold;
+	}
+
+	.read-more:hover {
+		color: #fff;
+		background-color: #000;
+		cursor: pointer;
+	}
+
+
+/* Instagram feed plugin */
+
+#instagram {
+	margin-top: 40px;
+}
+
+#instagram h1{
+	padding-bottom: 20px;
+}
+
+#instafeed {
+	width: 80%;
+	height: 200px;
+	margin: 20px auto;
+
+}
+
+#instafeed img {
+	width: 47.75%;
+	margin-bottom: 1.5%;
+	margin-left: 1.5%;
+}
+
+
+
 
 /*************************************************************/		
 		/* Media Queries */
@@ -266,6 +365,40 @@ nav img {
 				margin-right: 1.5%;
 			}
 
+			#featured:after {
+				content: '';
+				display: block;
+				clear: both;
+			}
+
+			/* Blog-posts */
+
+			#post-2 {
+				display: block;
+				float: right;
+				width: 47.5%;
+				margin-right: 1.5%;
+			}
+
+			#post-1 {
+				float: left;
+				width: 47.5%;
+				margin-left: 1.5%;
+			}
+
+			.read-more {
+				width: 50%;
+			}
+
+			#Blog:after {
+				content: '';
+				display: block;
+				clear: both;
+			}
+
+
+
+
 }
 		
 		/* Mobile break 2 */
@@ -287,7 +420,7 @@ nav img {
 				padding-bottom: 25px;
 			}
 				
-				/* SHOP NOW LINKS BELOW IMAGE SLIDER */
+		/* SHOP NOW LINKS BELOW IMAGE SLIDER */
 
 			#skate {
 				float: left;
@@ -366,9 +499,48 @@ nav img {
 				margin-right: 1.5%;
 			}
 
+			/* Blog-posts */
+
+			#post-3 {
+				display: block;
+			}
+
+			#post-1,
+			#post-2,
+			#post-3 {
+				float: left;
+				width: 31.33%;
+			}
+
+			#post-1 {
+				margin-left: 1.5%;
+				margin-right: .75%;
+			}
+
+			#post-2 {
+				margin-left: .75%;
+				margin-right: .75%;
+			}
+
+			#post-3 {
+				margin-left: .75%;
+				margin-right: 1.5%;
+			}
+
+			/* Instagram Feed */
+
+			#instafeed img {
+				width: 23.5%;
+				margin-bottom: 0;
+				margin-left: 1.5%;
+			}
+
 			
 
+			
 
+	
+			
 	}
 
 
@@ -469,6 +641,42 @@ nav img {
 				margin-left: .75%;
 				margin-right: 1.5%;
 			}
+
+
+			/* Blog-posts */
+
+			#post-4 {
+				display: block;
+			}
+
+			#post-1,
+			#post-2,
+			#post-3,
+			#post-4 {
+				float: left;
+				width: 23.125%;
+			}
+
+			#post-1 {
+				margin-left: 1.5%;
+				margin-right: .75%;
+			}
+
+			#post-2 {
+				margin-left: .75%;
+				margin-right: .75%;
+			}
+
+			#post-3 {
+				margin-left: .75%;
+				margin-right: .75%;
+			}
+
+			#post-4 {
+				margin-left: .75%;
+				margin-right: 1.5%;
+			}
+			
 
 
 }
