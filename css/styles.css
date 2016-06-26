@@ -378,6 +378,8 @@ footer {
 
 #footer-links {
 	padding-top: 30px;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .foot-head {
@@ -415,11 +417,13 @@ footer {
 /* social links */
 
 #social {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-#social-icons {
+#social-links {
 	width: 256px;
 	margin: 0 auto;
 }
@@ -493,6 +497,9 @@ footer {
 				display: block;
 				clear: both;
 			}
+
+			/* footer Links */
+
 
 
 
