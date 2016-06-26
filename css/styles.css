@@ -353,8 +353,9 @@ nav img {
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px 20px;
-	border: 4px solid #000;
+	border: 5px solid #000;
 	margin-top: 40px;
+	font-weight: bold;
 }
 
 #follow p:hover {
@@ -362,6 +363,14 @@ nav img {
 	color: #efefef;
 	cursor: pointer;
 }
+
+#follow a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
 
 
 
