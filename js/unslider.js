@@ -30,11 +30,11 @@
 			//  Should the slider move on its own or only when
 			//  you interact with the nav/arrows?
 			//  Only accepts boolean true/false.
-			autoplay: false,
+			autoplay: true,
 
-			//  3 second delay between slides moving, pass
+			//  5 second delay between slides moving, pass
 			//  as a number in milliseconds.
-			delay: 3000,
+			delay: 5000,
 
 			//  Animation speed in millseconds
 			speed: 750,
@@ -67,8 +67,8 @@
 			//  Either set true/false, or an object with the HTML
 			//  elements for each arrow like below:
 			arrows: {
-				prev: '<a class="' + self._ + '-arrow prev">Prev</a>',
-				next: '<a class="' + self._ + '-arrow next">Next</a>'
+				prev: '<a class=' + self._ + '-arrow prev"><img src="img/left-arrow-50.png"></a>',
+				next: '<a class="' + self._ + '-arrow next"><img src="img/right-arrow-50.png"></a>'
 			},
 
 			//  How should Unslider animate?
