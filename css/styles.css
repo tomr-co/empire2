@@ -762,10 +762,26 @@ footer {
 				margin: 0;
 				padding: 0;
 				padding-bottom: 5px;
+				position: fixed;
+				z-index: 100;
 			}
+
+			.logo {
+				margin-top: 0px;
+				padding-top: 60px;
+			}
+
+
+			#main-nav {
+				margin-top: 0px;
+				padding-bottom: 80px;
+
+			}
+
 			#quick-links {
 				height: 30px;
 				width: 500px;
+				float: left;
 			}
 			
 			#quick-links ul {
@@ -786,6 +802,31 @@ footer {
 				box-sizing: border-box;
 				padding-bottom: 0px;
 			}
+
+					#icon-links {
+						width: 160px;
+						float: right;
+					}
+
+					#icon-links img {
+						width: 20px;
+						height: 20px;
+					}
+
+					#icon-links li {
+						display: inline-block;
+					}
+
+					#top-bar-desktop:after {
+						content: '';
+						display: block;
+						clear: both;
+					}
+
+			/* fixed header */
+
+			
+
 
 
 			/* search box on Nav */
