@@ -9,7 +9,7 @@
 		font-family: helvetica, sans-serif;
 	}
 
-	#top-bar {
+	#top-bar-mobile {
 		height: 60px;
 		width: 100%;
 		background-color: #000;
@@ -22,13 +22,16 @@ nav p {
 	text-align: center; 
 	margin: 0;
 	line-height: -60px;
-	font-size: 1rem;
+	font-size: .9rem;
 }
 
 nav img {
 	line-height: 30px;
 }
 
+#top-bar-desktop{
+	display: none;
+}
 
 /* sub nav */
 
@@ -431,16 +434,88 @@ footer {
 #social img {
 	height: 25px;
 	width: 25px;
-	margin-right: 25px;
+	margin-right: 27.8px;
 }
 
-#social img:nth-child(5) {
-	margin-right: 0px;
+#soundcloud {
+	margin-right: 0px !important;
+}
+
+/* Subscribe Form footer */
+
+#subscribe-footer {
+	width: 256px;
+	margin: 0 auto;
+}
+
+#subscribe-footer input {
+	width: 256px;
+	border-style: none;
+	background-color: #efefef;
+	border-bottom: 5px solid #000;
+	font-size: 1rem;
+	box-sizing: border-box;
+	padding-left: 10px;
+	margin-top: 30px;
+}
+
+#subscribe-footer input:nth-child(2) {
+	border-style: none;
+	font-weight: bold;
+	font-size: .8rem;
+	box-sizing: border-box;
+	padding: 10px 10px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-left: 63px;
+	margin-right: 63px;
+	border: 5px solid #000;
+	text-transform: uppercase;
+	width: 130px;
+}
+
+#subscribe-footer input:nth-child(2):hover {
+	cursor: pointer;
+	background-color: #000;
+	color: #efefef;
+}
+
+#bottom-bar {
+	background-color: #000;
+	color: #efefef;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#designer-logo {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 25px;
+	height: 25px;
+}
+
+#designer-logo img {
+	width: 100%;
+}
+
+#bottom-bar p {
+	text-align: center;
+	margin-top: 10px;
+	font-weight: 100;
+	font-size: .8rem;
+}
+
+#bottom-bar a{
+	text-decoration: none;
+	color: inherit;
+}
+
+#bottom-bar a:hover {
+	color: #D8D8D8 ;
 }
 
 
-
-/*************************************************************/		
+/*******************************************************************************************************************************************/		
 		/* Media Queries */
 
 		/* Mobile break 2 */
@@ -640,6 +715,30 @@ footer {
 				margin-left: 1.5%;
 			}
 
+			/* footer links */
+
+			#footer-links {
+				width: 638px;
+				margin: 0 auto;
+			}
+
+			#store {
+				width: 25%;
+				float: left;
+				margin-left: 25%;
+			}
+
+			#info {
+				width: 25%;
+				float: right;
+				margin-right: 25%;
+			}
+
+			#footer-links:after {
+				content: '';
+				display: block;
+				clear: both;
+			}
 			
 	}
 
@@ -650,10 +749,50 @@ footer {
 
 	@media (min-width: 1024px) {
 
+			/* top bar */
+			#top-bar-mobile {
+				display: none;
+			}
+
+			#top-bar-desktop{
+				display: block;
+				height: 30px;
+				width: 100%;
+				background-color: #000;
+				margin: 0;
+				padding: 0;
+				padding-bottom: 5px;
+			}
+			#quick-links {
+				height: 30px;
+				width: 500px;
+			}
+			
+			#quick-links ul {
+				margin-left: 1.5%;
+				margin-bottom: 0px;
+				height: 30px;
+			}
+
+			#quick-links li {
+				display: inline;
+				padding-top: 0px;
+				margin-bottom: 0px;
+			}
+			#quick-links li a{
+				color: #efefef;
+				font-size: .7rem;
+				padding-top: 0px;
+				box-sizing: border-box;
+				padding-bottom: 0px;
+			}
+
+
+			/* search box on Nav */
 			.search-box {
 				width: 460px;
 				margin-left: 19%;
-	}
+	        }
 
 }
 
