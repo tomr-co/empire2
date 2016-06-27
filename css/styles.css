@@ -43,14 +43,14 @@ nav img {
 
 /* Logo */
 	.logo {
-		width: 50%;
+		width: 151px;
+		height: 74px;
 		margin: 5% auto;
 		text-align: center;
+		padding-bottom: 5px;
 	}
 
-	.logo img{
-		width: 150px;
-	}
+	
 
 /* Nav icon links */	
 
@@ -117,6 +117,7 @@ nav img {
 		width: 100%;
 		height: 31px;
 		border: none;
+		border-style: none;
 		border-bottom: 5px solid #000;
 	}
 
@@ -149,7 +150,7 @@ nav img {
 /* Image slider */
 
 .slide-1 {
-	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-1.png?10932229835773173136");
+	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-1.png?17673249055539539038");
 	background-position: center;
 	background-size: cover;
 	height: 500px;
@@ -157,12 +158,22 @@ nav img {
 }
 
 .slide-2 {
-	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-2.png?13855313181587065996");
+	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-2.jpg?17673249055539539038");
 	background-position: center;
 	background-size: cover;
 	height: 500px;
 	background-repeat: no-repeat;
 }
+
+.slide-3 {
+	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-4.jpg?17673249055539539038");
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	background-repeat: no-repeat;
+}
+
+
 
 		/* Slider arrows */
 		.unslider-arrow {} /* Mobile styles included in unslider.css */
@@ -573,31 +584,27 @@ footer {
 				clear: both;
 			}
 
-			/* footer Links */
-
-
-
-
 
 }
+
 		
-		/* Mobile break 2 */
+
+		/* Mobile break 3 */
 		
 
 	@media (min-width: 700px) {
 
 			.logo {
 				margin-top: 35px;
-				margin-bottom: 45px;
+				margin-bottom: 50px;
 			}
 
 			.logo img {
-				width: 200px;
+				width: 170px;
 			}
 
 			#main-nav {
 				height: 170px;
-				padding-bottom: 25px;
 			}
 				
 		/* SHOP NOW LINKS BELOW IMAGE SLIDER */
@@ -633,18 +640,31 @@ footer {
 				}
 
 			.slide-1 {
-				background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-1.png?10932229835773173136");
-				background-size: cover;
-				height: 900px;
-				background-repeat: no-repeat;
-				}
+	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-1.png?17673249055539539038");
+	background-position: center;
+	background-size: cover;
+	height: 900px;
+	background-repeat: no-repeat;
+}
 
-			.slide-2 {
-				background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-2.png?13855313181587065996");
-				background-size: cover;
-				height: 900px;
-				background-repeat: no-repeat;
-				}
+.slide-2 {
+	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-2.jpg?17673249055539539038");
+	background-position: center;
+	background-size: cover;
+	height: 900px;
+	background-repeat: no-repeat;
+}
+
+.slide-3 {
+	background-image: url("https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-4.jpg?17673249055539539038");
+	background-position: center;
+	background-size: cover;
+	height: 900px;
+	background-repeat: no-repeat;
+}
+
+
+
 
 			/* Slider arrows */
 			.unslider-arrow {
@@ -769,12 +789,17 @@ footer {
 			.logo {
 				margin-top: 0px;
 				padding-top: 60px;
+				padding-bottom: 10px;
+			}
+
+			.logo img {
+				width: 200px;
 			}
 
 
 			#main-nav {
 				margin-top: 0px;
-				padding-bottom: 80px;
+				padding-bottom: 60px;
 
 			}
 
